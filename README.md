@@ -7,3 +7,11 @@ This project implements Boruvka's algorithm in C++ to find the minimum spanning 
 - Input graph is read from a file specified by the user.
 - Computes the minimum spanning tree of the input graph using Boruvka's algorithm.
 - Outputs the edges of the minimum spanning tree.
+
+## Applications
+
+Boruvka's algorithm has several applications in various domains, including:
+
+- **Network Design:** Finding the minimum spanning tree helps in designing efficient communication networks with minimal cost.
+- **Clustering:** It can be used to identify clusters or connected components in a graph.
+- **Image Segmentation:** Boruvka's algorithm can be applied to segment images based on similarity measures between pixels.
