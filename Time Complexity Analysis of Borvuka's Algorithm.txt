@@ -1,0 +1,14 @@
+Time Complexity Analysis:
+
+Finding Minimum Weight Edges (Per Component):
+
+In each iteration of Boruvka's algorithm, it scans through all the edges to find the minimum weight edge for each component. This operation takes O(E) time.
+
+Union-Find Operations:
+
+In each iteration, it performs union-find operations on the components, which have a time complexity of approximately O(V+E). However, in practice, it is often considered  O(α(V)), where α(V) is the extremely slow-growing inverse Ackermann function.
+
+Total Time Complexity:
+
+Since Boruvka's algorithm repeats the above steps until there is only one connected component left, the number of iterations is at most O(logV) (as the number of components halves in each iteration).
+Therefore, the overall time complexity of Boruvka's algorithm is O(ElogV) in the worst-case scenario.
